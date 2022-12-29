@@ -9,12 +9,12 @@ const http=require('http');
 // }).listen(8000)
 
 //pass the paremater arrow function it is not initilized before declering
-var vitthal=(request,response)=>{
-    response.write('this is called using arrow function ')
-    response.end();
-}
-http.createServer(vitthal
-).listen(8000)
+// var vitthal=(request,response)=>{
+//     response.write('this is called using arrow function ')
+//     response.end();
+// }
+// http.createServer(vitthal
+// ).listen(8000)
 
 // 2.you can pass functon as a paremeter
 // function vitthal(request,response){
